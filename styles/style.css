@@ -131,3 +131,40 @@
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
+/* inspiration style */
+.inspiration-container{
+    text-align: center;
+    
+}
+.inspiration-header{
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: auto;
+}
+.inspiration-content{
+    opacity: 70%;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Support style */
+.support-intro{
+    background-image: url("../assets/handshake.jpg");
+    padding: 60px 30px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-size: contain;
+  
+  
+}
+.support-intro::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 0;
+    border-radius: 15px;
+  }
